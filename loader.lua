@@ -1,7 +1,7 @@
 print("pedrinho hub loader v2 initializing...")
 
 local HttpService = game:GetService("HttpService")
-local Url = "https://raw.githubusercontent.com/centerepic/sasware/refs/heads/main/index.json"
+local Url = "https://raw.githubusercontent.com/vazzie131/fischpedrinhohub/refs/heads/main/index.json"
 
 local Success, Response = pcall(function()
     return game:HttpGet(Url)
